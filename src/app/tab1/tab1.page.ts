@@ -30,6 +30,21 @@ export class Tab1Page {
     });
   }
 
+	private currentNumber = 0;
+	constructor () { }
+	
+	private increment () {
+		this.currentNumber++;
+	}
+	
+	private decrement () {
+		if (this.currentNumber <= 0) {
+		}
+		else {
+			this.currentNumber--;
+		}
+	}
+	
 }
 
 
