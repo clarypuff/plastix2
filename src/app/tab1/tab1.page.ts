@@ -12,7 +12,6 @@ export class Tab1Page {
   currentImage: any;
 
   constructor(private camera: Camera) { }
-  //constructor() {}
   
   takePicture() {
     const options: CameraOptions = {
@@ -31,7 +30,6 @@ export class Tab1Page {
   }
 
 	private currentNumber = 0;
-	constructor () { }
 	
 	private increment () {
 		this.currentNumber++;
